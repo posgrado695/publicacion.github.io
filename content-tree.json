@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Inicio",
+        "children": [
+            {"name": "Descripción del Servicio"},
+            {"name": "Importancia del Marketing Digital"},
+            {"name": "Elementos Personalizables"},
+            {"name": "Preguntas Frecuentes"}
+        ]
+    },
+    {
+        "name": "Formulario de Registro",
+        "children": [
+            {"name": "Objetivos"},
+            {"name": "Presupuesto Mensual"},
+            {"name": "Canales Principales"},
+            {"name": "Público Objetivo"}
+        ]
+    },
+    {
+        "name": "Detalles de la Estrategia",
+        "children": [
+            {"name": "Propuesta de Contenido"},
+            {"name": "Cronograma de Publicaciones"},
+            {"name": "Análisis de KPIs"},
+            {"name": "Recomendaciones"}
+        ]
+    },
+    {
+        "name": "Recomendaciones",
+        "children": [
+            {"name": "Tendencias en Marketing"},
+            {"name": "Consejos para Engagement"},
+            {"name": "Videos de Casos de Éxito"},
+            {"name": "Herramientas Recomendadas"}
+        ]
+    }
+]
