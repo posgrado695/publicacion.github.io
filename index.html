@@ -1,81 +1,872 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú Dinámico</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Medilab Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medilab
+  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Mi Sitio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menuNav">
-                <ul class="navbar-nav" id="menu"></ul>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+    
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">MARKETING DIGITAL</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            
+            <li class="dropdown"><a href="#"><span>Inicio</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Descripción del servicio de estrategias personalizadas</a></li>
+                <li><a href="#">Importancia del marketing digital para empresas modernas
+                </a></li>
+                <li><a href="#">Qué elementos puedes personalizar</a></li>
+                <li><a href="#">Preguntas frecuentes
+                </a></li>            
+                
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Formulario de Registro</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Objetivos (branding, generación de leads, ventas)</a></li>
+                  <li><a href="#">Presupuesto mensual
+                  </a></li>
+                  <li><a href="#">Canales principales (redes sociales, SEO, email marketing)</a></li>
+                  <li><a href="#">Público objetivo
+
+                  </a></li>            
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Detalles de la Estrategia</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Propuesta de contenido personalizado
+                </a></li>
+                  <li><a href="#">Cronograma de publicaciones
+                  </a></li>
+                  <li><a href="#">Análisis de métricas clave (KPIs)
+                </a></li>
+                  <li><a href="#">Recomendaciones para campañas publicitarias
+                  </a></li>            
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Recomendaciones</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Artículos sobre tendencias en marketing digital</a></li>
+                  <li><a href="#">Consejos para aumentar el engagement
+                  </a></li>
+                  <li><a href="#">Videos de casos de éxito en campañas innovadoras</a></li>
+                  <li><a href="#">Herramientas recomendadas para análisis de métricas 
+                  </a></li>            
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Comunidad</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Foros sobre estrategias efectivas</a></li>
+                  <li><a href="#">Encuentros para analizar tendencias de marketing
+                  </a></li>
+                  <li><a href="#">Consejos de expertos en SEO y redes sociales
+                </a></li>
+                  <li><a href="#">Discusión sobre herramientas como Google Ads y Meta Ads
+                  </a></li>            
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Extras</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Plantillas para crear campañas publicitarias</a></li>
+                  <li><a href="#">Tutoriales sobre plataformas de análisis de datos
+                  </a></li>
+                  <li><a href="#">Casos de estudio de marketing exitoso</a></li>
+                  <li><a href="#">Ideas para integrar IA en estrategias digitales 
+                  </a></li>            
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>FAQ</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">¿Puedo ajustar mi estrategia según los resultados?</a></li>
+                  <li><a href="#">¿Cómo segmentar correctamente mi público objetivo?
+                  </a></li>
+                  <li><a href="#">¿Qué canales funcionan mejor para mi industria?</a></li>
+                  <li><a href="#">Contactar soporte 
+                  </a></li>            
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Contacto</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Formulario de contacto </a></li>
+                  <li><a href="#">Redes sociales 
+                  </a></li>            
+                  
+                </ul>
+              </li>
+              
+            
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+    
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/emarchewwaali7p.jpeg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative">
+
+       
+
+              </div>
             </div>
+          </div>
+        </div><!-- End  Content-->
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4 gx-5">
+
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+          </div>
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <h3>Descripción del servicio de estrategias personalizadas</h3>
+            <p>Las estrategias personalizadas de marketing digital son acciones que adaptan las experiencias de los clientes a sus necesidades y preferencias. Para ello, se utilizan datos y análisis para crear contenido y ofertas personalizadas. 
+                El objetivo de este tipo de estrategias es mejorar la experiencia de los clientes y crear relaciones más sólidas. 
+            </p>
+            <ul>
+              <li>
+                <i class="fa-solid fa-redo">‌</i>
+                <div>
+                  <h5></h5>
+                  <p>Se basan en datos sobre el comportamiento y las preferencias de los clientes</p>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-redo">‌</i>
+                <div>
+                  <h5></h5>
+                  <p>Se adaptan a las necesidades e intereses individuales de los usuarios</p>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-redo">‌</i>
+                <div>
+                  <h5></h5>
+                  <p>Permiten a las marcas diferenciarse de sus competidores</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
         </div>
-    </nav>
 
-    <script>
-        $(document).ready(function () {
-            function loadMenuFromJson() {
-                $.getJSON("menu.json", function (data) {
-                    generateMenu(data.menu);
-                });
-            }
+      </div>
 
-            function loadMenuFromXml() {
-                $.ajax({
-                    type: "GET",
-                    url: "menu.xml",
-                    dataType: "xml",
-                    success: function (xml) {
-                        let menuData = [];
-                        $(xml).find("item").each(function () {
-                            let subMenu = [];
-                            $(this).find("submenu item").each(function () {
-                                subMenu.push({
-                                    name: $(this).attr("name"),
-                                    link: $(this).attr("link")
-                                });
-                            });
-                            menuData.push({
-                                name: $(this).attr("name"),
-                                link: $(this).attr("link"),
-                                submenu: subMenu
-                            });
-                        });
-                        generateMenu(menuData);
-                    }
-                });
-            }
+    </section><!-- /About Section -->
 
-            function generateMenu(menuItems) {
-                let menuHtml = "";
-                menuItems.forEach(item => {
-                    if (item.submenu && item.submenu.length > 0) {
-                        menuHtml += `<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="${item.name}" role="button" data-bs-toggle="dropdown">${item.name}</a>
-                            <ul class="dropdown-menu">`;
-                        item.submenu.forEach(sub => {
-                            menuHtml += `<li><a class="dropdown-item" href="${sub.link}">${sub.name}</a></li>`;
-                        });
-                        menuHtml += `</ul></li>`;
-                    } else {
-                        menuHtml += `<li class="nav-item"><a class="nav-link" href="${item.link}">${item.name}</a></li>`;
-                    }
-                });
-                $("#menu").html(menuHtml);
-            }
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
 
-            loadMenuFromJson(); // O cambiar a loadMenuFromXml(); según la fuente deseada
-        });
-    </script>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="row gy-4">
+<h3>Importancia del marketing digital para empresas modernas</h3>
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            
+            <div class="stats-item">
+              <p>Interactuar con un público más amplio</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            
+            <div class="stats-item">
+              <p>Dirigirse a clientes potenciales más relevantes</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            
+            <div class="stats-item">
+              <p>Generar lealtad a la marca</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            
+            <div class="stats-item">
+              <p>Aumentar las ventas</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Qué elementos puedes personalizar
+        </h2>
+        <p>La personalización en marketing se refiere a la capacidad de adaptar los mensajes, ofertas y experiencias de compra a las necesidades y preferencias individuales de cada cliente. Esto se logra a través de la recopilación y el análisis de datos sobre el comportamiento y las preferencias del cliente.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+<h2>Preguntas frecuentes
+</h2>
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrows-down-to-people">‌</i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>¿Qué es el marketing digital?</h3>
+              </a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrows-down-to-people">‌</i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>¿Qué es el público objetivo?</h3>
+              </a>
+               </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrows-down-to-people">‌</i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>¿Cómo medir los resultados?</h3>
+              </a>
+               </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrows-down-to-people">‌</i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>¿Qué herramientas necesito?</h3>
+              </a>
+              
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrows-down-to-people">‌</i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>¿Cómo evaluar el retorno de la inversión?</h3>
+              </a>
+              
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrows-down-to-people">‌</i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>¿Cuál es la mejor plataforma de email marketing?</h3>
+              </a>
+              
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>contactos</h2>
+        
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required="">
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Correo electronico" required="">
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Telefono" required="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 form-group mt-3">
+              <input type="datetime-local" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required="">
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="department" id="department" class="form-select" required="">
+                <option value="">Selecciona tu Departamnto</option>
+                <option value="Department 1">Potosi</option>
+                <option value="Department 2">Oruro</option>
+                <option value="Department 3">Sucre</option>
+                <option value="Department 1">Cohabamba</option>
+                <option value="Department 2">Santa cruz</option>
+                <option value="Department 3">La Paz</option>
+                <option value="Department 2">Pando</option>
+                <option value="Department 3">Beni</option>
+              </select>
+            </div>
+            
+          </div>
+
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"></textarea>
+          </div>
+          <div class="mt-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Nos pondremos en contacto lo ante posible gracias</div>
+            <div class="text-center"><button type="submit">enviar</button></div>
+          </div>
+        </form>
+
+      </div>
+
+    </section><!-- /Appointment Section -->
+
+    <!-- Departments Section -->
+    <section id="departments" class="departments section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Detalles de la Estrategia</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#departments-tab-1">Propuesta de contenido personalizado</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-2">Cronograma de publicaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-3">Análisis de métricas clave (KPIs)
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-4">Recomendaciones para campañas publicitarias</a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="departments-tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Propuesta de contenido personalizado</h3>
+                    <p class="fst-italic">Una propuesta de contenido personalizado para marketing digital es un plan para crear contenido que se adapte a las necesidades y preferencias de los clientes. El objetivo es generar una experiencia única para cada usuario, lo que puede aumentar la satisfacción y la lealtad a la marca. 
+                        Para crear una propuesta de contenido personalizado, se puede seguir el siguiente proceso: 
+                        Identificar al público objetivo
+                        Recopilar datos sobre los clientes
+                        Crear perfiles de clientes
+                        Analizar los datos para comprender el comportamiento de los consumidores
+                        Crear contenido personalizado</p>
+                    </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Cronograma de publicaciones</h3>
+                    <p class="fst-italic">Un calendario de planificación de marketing permite a los miembros de un equipo de marketing ver de un vistazo las actividades de marketing programadas y asegurarse de que se están cumpliendo las diferentes etapas más pequeñas distribuidas a lo largo del año.</p>
+                     </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Análisis de métricas clave (KPIs)</h3>
+                    <p class="fst-italic">El análisis de métricas clave (KPIs) de marketing digital es un proceso que permite a las empresas medir y evaluar el rendimiento de sus estrategias de marketing. 
+                        Los KPIs son indicadores que se utilizan para medir el progreso de una empresa y ajustar su estrategia de negocio. Son valores cuantificables que se centran en un objetivo específico, como aumentar el tráfico de un sitio web o las ventas. </p>
+                         </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Recomendaciones para campañas publicitarias</h3>
+                    <p class="fst-italic">Algunas herramientas que se pueden utilizar para realizar campañas de marketing digital son: 
+                        SEO
+                        SEM
+                        Redes sociales
+                        Webinars
+                        Plataformas de estudio
+                        Google Academy for Ads
+                        Facebook Blueprint eLearning</p>
+                      </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Departments Section -->
+
+   
+
+
+    </section><!-- /Faq Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <div class="container">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+            <h3>Testimonios</h3>
+            <p>
+                El testimonio de marketing digital es una técnica que consiste en utilizar comentarios de personas que han probado un producto o servicio de una empresa. El objetivo es generar confianza y credibilidad en el consumidor potencial. 
+            </p>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Saul Goodman</h3>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Aumentan la credibilidad de la marca</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Sara Wilsson</h3>
+                        
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Mejoran el valor SEO</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Jena Karlis</h3>
+                        
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Influyen en las decisiones de compra</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Matt Brandon</h3>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Ayudan a convertir más ventas</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>John Larson</h3>
+                        
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Permiten mostrar los beneficios de un producto o servicio</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Galeria de Imagenes</h2>
+        </div><!-- End Section Title -->
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/1.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/2.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/3.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/4.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/5.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/6.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          
+
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contactos</h2>
+        </div><!-- End Section Title -->
+
+      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div><!-- End Google Maps -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Ubicacion</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Numero</h3>
+                <p>+59155488 55</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email</h3>
+                <p>info@example.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Nombre" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Correo" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="asunto" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="mensaje" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+
+                  <button type="submit">Enviar Mensaje</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          
+          
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Derechos Reservados</span></p>
+      
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>

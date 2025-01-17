@@ -1,10 +1,16 @@
 <menu>
-    <item name="Inicio" link="index.html"/>
-    <item name="Servicios" link="#">
-        <submenu>
-            <item name="Diseño Web" link="web.html"/>
-            <item name="Marketing" link="marketing.html"/>
-        </submenu>
-    </item>
-    <item name="Contacto" link="contacto.html"/>
-</menu>
+  <item>
+    <title>Inicio</title>
+    <link href="/">
+  </item>
+  <item>
+    <title>Productos</title>
+    <link href="/productos">
+    <submenu>
+      <item>
+        <title>Categoría 1</title>
+        <link href="/productos/categoria1">
+      </item>
+      </submenu>
+  </item>
+  </menu>

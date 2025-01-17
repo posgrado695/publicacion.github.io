@@ -1,10 +1,7 @@
 {
-    "menu": [
-        { "name": "Inicio", "link": "index.html" },
-        { "name": "Servicios", "link": "#", "submenu": [
-            { "name": "Diseño Web", "link": "web.html" },
-            { "name": "Marketing", "link": "marketing.html" }
-        ]},
-        { "name": "Contacto", "link": "contacto.html" }
-    ]
-}
+    "iconPrefix": "fa fa-", // Clase para iconos de Font Awesome
+    "items": {
+      "Inicio": "home",
+      "Productos": "shopping-cart"
+    }
+  }
