@@ -1,19 +1,10 @@
 <menu>
-    <item name="Inicio" link="#inicio">
+    <item name="Inicio" link="index.html"/>
+    <item name="Servicios" link="#">
         <submenu>
-            <item name="Descripción" link="#descripcion" />
-            <item name="Importancia" link="#importancia" />
-            <item name="Elementos Personalizables" link="#personalizacion" />
-            <item name="Preguntas Frecuentes" link="#faq" />
+            <item name="Diseño Web" link="web.html"/>
+            <item name="Marketing" link="marketing.html"/>
         </submenu>
     </item>
-    <item name="Formulario de Registro" link="#formulario">
-        <submenu>
-            <item name="Objetivos" link="#objetivos" />
-            <item name="Presupuesto" link="#presupuesto" />
-            <item name="Canales" link="#canales" />
-            <item name="Público Objetivo" link="#publico" />
-        </submenu>
-    </item>
-    <!-- Repetir para el resto de las secciones -->
+    <item name="Contacto" link="contacto.html"/>
 </menu>
